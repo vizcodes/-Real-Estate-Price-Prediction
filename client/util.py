@@ -54,14 +54,14 @@ def load_saved_artifacts():
     global __model
     global __scaler
 
-    with open('artifacts/features.json','r') as f:
+    with open('/app/-real-estate-price-prediction/client/artifacts/features.json','r') as f:
         __features = json.load(f)['features']
         __locations = __features[6:]
 
-    with open('artifacts/bng_price_model.pkl','rb') as f:
+    with open('/app/-real-estate-price-prediction/client/artifacts/bng_price_model.pkl','rb') as f:
         __model = pkl.load(f)
     
-    with open('artifacts/bng_price_scaler.pkl','rb') as f:
+    with open('/app/-real-estate-price-prediction/client/artifacts/bng_price_scaler.pkl','rb') as f:
          __scaler = pkl.load(f)
 
 
