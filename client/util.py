@@ -1,3 +1,4 @@
+import pip
 pip install geopy
 import json
 import pickle as pkl
