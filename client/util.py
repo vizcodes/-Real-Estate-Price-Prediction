@@ -1,9 +1,8 @@
 import pip
-$ pip install geopy
 import json
 import pickle as pkl
 import numpy as np
-
+import geopy
 from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="real_estate_app")
 
