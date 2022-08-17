@@ -1,2 +1,3 @@
 geopy
 numerize
+scikit-learn
