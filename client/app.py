@@ -34,4 +34,4 @@ if est_button == True:
         loc_df = pd.DataFrame({'lat':lat,'lon':long},index = [0])
         st.map(loc_df,zoom = 12)
     except:
-        None
+        st.write('Sorry! Unable to find the location,but will be updated soon...')
